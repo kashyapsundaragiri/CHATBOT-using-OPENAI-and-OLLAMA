@@ -1,13 +1,18 @@
-# Environment and secrets
+# Environment & secrets — NEVER commit these
 .env
 .env.*
 !.env.example
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
 
 # Virtual environments
 venv/
 .venv/
 env/
 ENV/
+virtualenv/
 
 # Python
 __pycache__/
@@ -15,17 +20,43 @@ __pycache__/
 *$py.class
 *.so
 .Python
+*.egg
 *.egg-info/
 .eggs/
 dist/
 build/
+pip-wheel-metadata/
+share/python-wheels/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.cover
+.hypothesis/
 
-# IDE / OS
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editors
 .idea/
 .vscode/
 *.swp
+*.swo
+*~
+
+# OS
 .DS_Store
 Thumbs.db
+Desktop.ini
+
+# Logs & local data
+*.log
+logs/
+tmp/
+temp/
 
 # Streamlit
 .streamlit/secrets.toml
