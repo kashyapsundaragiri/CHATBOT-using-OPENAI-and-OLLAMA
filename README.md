@@ -10,7 +10,7 @@ Streamlit Q&A chatbots built with LangChain:
 ```bash
 python -m venv venv
 venv\Scripts\activate
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 Optional: create a `.env` file with `LANGCHAIN_API_KEY` if you use LangSmith tracing.
