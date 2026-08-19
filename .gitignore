@@ -57,6 +57,11 @@ Desktop.ini
 logs/
 tmp/
 temp/
+temp.pdf
+**/temp.pdf
+chroma/
+.chroma/
+*.db
 
 # Streamlit
 .streamlit/secrets.toml
