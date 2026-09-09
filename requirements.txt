@@ -23,6 +23,7 @@ pandas
 openai
 langchain-groq
 duckduckgo-search
+ddgs
 mysql-connector-python
 SQLAlchemy
 validators
